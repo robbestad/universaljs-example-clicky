@@ -1,10 +1,14 @@
 # Clicky example
 
-A very basic example of using UniversalJS
+A very basic example of using UniversalJS. It's the smallest useful example I could think of to show how to build something with UniversalJS.
 
 # Demo
 
   - [Clicky](http://clicky.svenardo.com/)
+
+# Build
+
+Clone and execute _npm run build_. This command uses webpack to build the _bundle.js_ from index.js and app.js. 
 
 ## Related Modules
 
