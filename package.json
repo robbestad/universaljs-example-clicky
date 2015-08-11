@@ -1,0 +1,28 @@
+{
+  "name": "universaljs-sampleapp",
+  "version": "1.0.0",
+  "description": "A barebone sample universaljs app",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^1.11.0",
+    "universal-jsx-loader": "^0.2.3",
+    "universaljs": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "path": "^0.11.14",
+    "universal-jsx": "^0.2.2",
+    "universal-jsx-loader": "^0.2.3",
+    "webpack": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack -p"
+  },
+  "keywords": [
+    "universaljs"
+  ],
+  "author": "Sven Anders Robbestad <robbestad@gmail.com> (http://svenardo.com)",
+  "license": "ISC"
+}
